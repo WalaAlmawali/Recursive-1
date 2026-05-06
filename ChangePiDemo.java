@@ -6,6 +6,12 @@ public class ChangePiDemo {
         // Create an object of ChangePi class
         ChangePi changePi = new ChangePi();
 
+        // Test the method with different strings
+        System.out.println(changePi.changePi("xpix"));
+        System.out.println(changePi.changePi("pipi"));
+        System.out.println(changePi.changePi("pip"));
+
+
 
     }
 
