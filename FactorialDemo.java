@@ -6,5 +6,6 @@ public class FactorialDemo {
 
 
         Factorial factorial = new Factorial();
+        factorial.factorial(5);
     }
 }
