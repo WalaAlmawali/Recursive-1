@@ -8,6 +8,11 @@ public class CountXDemo {
         CountX countX = new CountX();
 
 
+        // Test the method with different strings
+        System.out.println(countX.countX( "xxhixx"));
+        System.out.println(countX.countX( "xhixhix"));
+        System.out.println(countX.countX( "hi"));
+
 
     }
 }
