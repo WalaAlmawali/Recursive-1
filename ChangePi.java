@@ -8,6 +8,11 @@ public class ChangePi {
             return "";
         }
 
+        // Check if the string starts with "pi"
+        if(str.charAt(0)== 'p' && str.charAt(1)== 'i'){
+            return "3.14" + changePi(str.substring(2));
+        }
+
     }
 
 }
