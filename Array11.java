@@ -8,6 +8,11 @@ public class Array11 {
             return 0;
         }
 
+        //Check the current element equals to 11
+        if(nums[index] == 11){
+            return 1 + array11(nums, index + 1);
+        }
+
     }
 
 }
