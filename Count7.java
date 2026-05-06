@@ -9,6 +9,9 @@ public class Count7 {
             return 0;
         }
 
+        // Get the last digit
+        int lastDigit =  n % 10;
+
     }
 
 
