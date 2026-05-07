@@ -8,6 +8,11 @@ public class NoX {
             return "";
         }
 
+        // If the first character is 'x', skip it
+        if (str.charAt(0) == 'x') {
+            return noX(str.substring(1));
+        }
+
 
     }
 }
