@@ -13,6 +13,11 @@ public class ParenBit {
             return parenBit(str.substring(1));
         }
 
+        //If the last character is not ')'
+        if(str.charAt(str.length()-1) != ')'){
+            return str.substring(0, str.length() - 1);
+        }
+
     }
 
 }
