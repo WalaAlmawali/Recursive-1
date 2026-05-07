@@ -15,6 +15,11 @@ public class Count8 {
         int secondLastDigit = (n / 10) % 10;
 
 
+        // If the last digit is 8
+        if (lastDigit == 8) {
+
+
+        }
     }
 
 
