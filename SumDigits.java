@@ -12,6 +12,9 @@ public class SumDigits {
         // Get the last digit of the n
         int lastDigit = n % 10;
 
+        // Remove the last digit from the n
+        int remaining = n / 10;
+
 
     }
 
