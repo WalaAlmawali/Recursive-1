@@ -11,6 +11,9 @@ public class Count8 {
         // Get the last digit
         int lastDigit = n % 10;
 
+        // Get the second last digit
+        int secondLastDigit = (n / 10) % 10;
+
 
     }
 
