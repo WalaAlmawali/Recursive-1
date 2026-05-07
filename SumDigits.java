@@ -9,6 +9,9 @@ public class SumDigits {
             return 0;
         }
 
+        // Get the last digit of the n
+        int lastDigit = n % 10;
+
 
     }
 
