@@ -8,7 +8,8 @@ public class BunnyEars2 {
             return 0;
         }
 
-
+        //Recursive case
+        return 2 + bunnyEars(n - 1);
 
     }
 
