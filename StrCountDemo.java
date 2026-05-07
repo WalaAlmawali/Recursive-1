@@ -5,6 +5,13 @@ public class StrCountDemo {
 
         //Create an object of the StrCount class
         StrCount strCount = new StrCount();
+
+
+        // Test the method with different strings
+        System.out.println(strCount.strCount("catcowcat","cat"));
+        System.out.println(strCount.strCount("catcowcat","cow"));
+        System.out.println(strCount.strCount("catcowcat","dog"));
+
     }
 
 
