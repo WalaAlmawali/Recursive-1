@@ -8,6 +8,10 @@ public class Count8 {
             return 0;
         }
 
+        // Get the last digit
+        int lastDigit = n % 10;
+
+
     }
 
 
