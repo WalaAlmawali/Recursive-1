@@ -21,6 +21,8 @@ public class Count8 {
             // If the previous digit is also 8
             if (secondLastDigit == 8) {
                 return 2 + count8(n / 10);
+            }else{
+                return 1 + count8(n / 10);
             }
 
         }
