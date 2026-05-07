@@ -12,6 +12,10 @@ public class CountAbc {
         // Get the first 3 characters
         String firstThree = str.substring(0, 3);
 
+        // Check if the substring is "abc" or "aba"
+        if(firstThree.equals("abc") || firstThree.equals("aba")){
+            return 1+ countAbc(str.substring(1));
+        }
 
 
     }
