@@ -15,6 +15,8 @@ public class SumDigits {
         // Remove the last digit from the n
         int remaining = n / 10;
 
+        // Recursive case
+        return lastDigit + sumDigits(remaining);
 
     }
 
